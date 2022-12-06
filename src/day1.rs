@@ -31,8 +31,8 @@ pub(crate) fn main() {
     let lines = lines::read_lines("resources/day1.txt");
     if let Ok(lines) = lines {
         let elves = get_elves(&lines);
-        println!("Day 1: The Elf with the most calories carries {:?} calories", calculate1(&elves));
-        println!("Day 1: The 3 Elves with the most calories carry {:?} calories together", calculate2(&elves));
+        println!("Day 1: The Elf with the most calories = {:?}", calculate1(&elves));
+        println!("Day 1: The 3 Elves with the most calories = {:?}", calculate2(&elves));
     }
     println!()
 }

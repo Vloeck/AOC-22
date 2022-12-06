@@ -138,9 +138,9 @@ pub(crate) fn main() {
     let lines = lines::read_lines("resources/day2.txt");
     if let Ok(lines) = lines {
         let score = calculate1(lines.clone());
-        println!("Day 2: First Score: {score}");
+        println!("Day 2: First Score = {score}");
         let score = calculate2(lines);
-        println!("Day 2: Second Score: {score}");
+        println!("Day 2: Second Score = {score}");
     }
     println!()
 }

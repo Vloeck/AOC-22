@@ -57,9 +57,9 @@ pub(crate) fn main() {
     let lines = lines::read_lines("resources/day3.txt");
     if let Ok(lines) = lines {
         let priority_sum = calculate1(&lines);
-        println!("Day 3: Priority Sum = {priority_sum}");
+        println!("Day 3: Priority Sum of duplicate items in rucksack = {priority_sum}");
         let priority_sum = calculate2(&lines);
-        println!("Day 3: Priority Sum = {priority_sum}");
+        println!("Day 3: Priority Sum of duplicate items in group = {priority_sum}");
     }
     println!()
 }
